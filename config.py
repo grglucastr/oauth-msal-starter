@@ -7,7 +7,6 @@ class Config(object):
 
     CLIENT_ID = "200ebc23-0467-4474-b6d9-29cb8b031633"
 
-    # TODO: Enter the redirect path you want to use for OAuth requests
     #   Note that this will be the end of the URI entered back in Azure AD
     REDIRECT_PATH = "/getaroom"  # Used to form an absolute URL, 
         # which must match your app's redirect_uri set in AAD
